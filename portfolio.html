@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio.website </title>
-    <style>
-        body{
+    <link rel="stylesheet" href="style.css">
+  <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body {
             background-color: black;
-            color: white;
+            color: aliceblue;
         }
         section div{
             display: inline-block;
         }
         .port{
-            border: 10px;
+            border: 100px;
             border-radius: 10px;
             background-color: grey; 
         }
@@ -23,33 +27,67 @@
             width: 100px;
             max-width: 100%;
         }
-        .port h1{
-            font-size: 50px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            display: flex;
-            justify-content: center;
+        h1{
+          text-align: center;
+          font-size: 100px;
+          background-color: rgb(39, 219, 96);
+          border: 100px;
+
+        }
+        .portdiv1{
+        
+        }
+        .hoofdstuk1 {
+        }
+        .Portfolio1{
+            padding: 200px;
             align-items: center;
-            text-align: center;
-            background-color: green;
-            border-radius: 10px;
         }
         .text{
           text-align: left;
           margin: 50px;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+        }
+        .tebutton{
+            padding: 100px;
+            border-radius: 10px;
+            background-color: rgb(107, 41, 41);
+            margin-left: 500px;
+        }
+        .dark_mode{
+            background-color:rgb(92, 206, 84);
+            color:rgb(14, 6, 6);
         }
 
     </style>
 </head>
 <body>
-    <section class="port">
-        <h1>Portfolio </h1>
+    <section class="Portfolio1">
+        <div class="port">
+        <h1 class="hoofdstuk1">Portfolio </h1>
         <div class="hello">
             <img src="foto/glasses.webp" alt="foto" class="glassboy">
         <p class="text">Hallo , ik ga mezelf introduceren ik ben Xinghao.  Wat zijn mij hobbies?Wel goeje vraag ik speel games.Wat vind ik leuk? Ik vind eten best wel leuk.</p>
         </div> 
+        </div>
     </section>
+    <br>
+    <section class="butt" >
+        <div class="tebutton">
+        <h2>De dark mode</h2>
+        <p>Klik op dit knop om dark mode in te schakelen</p>
+        <button onclick="Klik()">Dark mode</button>
+        </div>
+    </section>
+    <section>
+        <div class="cookie-banner" id="cookie-banner"> 
+            <p>
+                We use cookies to ensure you get the best experience on our website.
+                 <button class="cookie-button" onclick="acceptCookies()">Accept</button> 
+            </p> 
+        </div>
+    </section>
+    <script src="app.js"></script>
+
     
 </body>
 </html>
