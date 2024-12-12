@@ -1,0 +1,73 @@
+       *{
+            margin: 0;
+        }
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        section div{
+            display: inline-block;
+        }
+        .port{
+            border: 10px;
+            border-radius: 10px;
+            background-color: grey; 
+        }
+        .glassboy{
+            float: right;
+           margin: 50px;
+            width: 100px;
+            max-width: 100%;
+        }
+        .port h1{
+         font-size: 50px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+           background-color: green;
+           border-radius: 10px;
+        }
+        .Portfolio1{
+            padding: 200px;
+            align-items: center;
+        }
+        .text{
+            text-align: left;
+            margin: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .tebutton{
+            padding: 100px;
+            border-radius: 10px;
+            background-color: rgb(107, 41, 41);
+            margin-left: 500px;
+        }
+        .dark_mode{
+            background-color:black;
+            color:white;
+        }
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            z-index: 1000;
+        }
+        
+        .cookie-button {
+            background-color: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            margin-left: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
