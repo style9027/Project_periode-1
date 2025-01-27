@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding">DeV.</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Over Mij</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Welkom!</h1>
+        <p>Deze website laat mijn portfolio zien, inclusief projecten en meer!</p>
+    </div>
+
+    <section id="about" class="Portfolio1">
+        <div class="port">
+            <h1 class="hoofdstuk1">Over Mij</h1>
+            <div class="hello">
+                <img src="foto/glasses.webp" alt="foto" class="glassboy">
+                <p class="text">
+                    Hallo, ik ben Xinghao. Mijn hobby's zijn onder andere gamen en ik houd erg van eten. 
+                    Hier kun je meer over mij en mijn werk ontdekken.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="butt">
+        <div class="tebutton">
+            <h2>Schakel Dark Mode In</h2>
+            <p>Klik op de knop hieronder om dark mode in te schakelen.</p>
+            <button onclick="toggleDarkMode()">Dark Mode</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="cookie-banner" id="cookie-banner"> 
+            <p>
+                We gebruiken cookies om je de beste ervaring te bieden. 
+                <button class="cookie-button" onclick="acceptCookies()">Accepteer</button>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Portfolio van Xinghao. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <section class="countdown-container">
+        <h1>Countdown naar je Belangrijke Datum</h1>
+        <div id="countdown">
+            <div class="time-unit">
+                <span id="days"></span>
+                <p>Dagen</p>
+            </div>
+            <div class="time-unit">
+                <span id="hours"></span>
+                <p>Uren</p>
+            </div>
+            <div class="time-unit">
+                <span id="minutes"></span>
+                <p>Minuten</p>
+            </div>
+            <div class="time-unit">
+                <span id="seconds"></span>
+                <p>Seconden</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
